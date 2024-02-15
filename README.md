@@ -5,7 +5,7 @@
 To avoid unused installations on your computers, I decide to create a Dockerfile to run the solution easily.
 
 ```sh
-git clone
+git clone git@github.com:polimorfismtetragramaton/tribal-solution.git
 ```
 ```sh
 docker build -t chuck_norris .
