@@ -4,9 +4,13 @@
 ## How to execute
 To avoid unused installations on your computers, I decide to create a Dockerfile to run the solution easily.
 
-⁠```sh
+⁠```
 git clone
+```
+```
 docker build -t chuck_norris .
+```
+```
 docker run -p 8080:8080 chuck_norris
 ⁠```
  ⁠
